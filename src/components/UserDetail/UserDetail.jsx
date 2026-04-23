@@ -1,0 +1,13 @@
+import { useLoaderData } from 'react-router';
+
+const UserDetail = () => {
+    const user = useLoaderData()
+    console.log(user);
+    return (
+        <div>
+            <h2>User Details</h2>
+        </div>
+    );
+};
+
+export default UserDetail;
